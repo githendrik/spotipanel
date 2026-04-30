@@ -1,0 +1,89 @@
+# PlatformIO
+.pioenvs/
+.piolibdeps/
+*.ld
+firmware.map
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Build artifacts
+.build/
+build/
+dist/
+
+# Configuration
+config.h
+include/config.h
+
+# Logs
+*.log
+logs/
+
+# Serial output
+*.bin
+*.elf
+*.map
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Coverage
+.coverage
+htmlcov/
+*.gcov
+*.gcda
+*.gcno
+
+# Testing
+.test/
+tests/coverage/
+
+# Documentation
+docs/_build/
+docs/.doctrees/
+
+# Assets
+assets/generated/
+
+# Dependencies
+node_modules/
+vendor/
+
+# Environment
+.env
+.env.local
+*.env
+
+# Secrets
+*.key
+*.pem
+*.crt
+secrets.json
+credentials.json
+src/credentials.h
+
+# Hardware
+*.sch
+*.brd
+*.pcb
+*.gbr
+*.gerber
+*.bom
+
+# Firmware
+*.uf2
+*.bin.hex
+.pio/

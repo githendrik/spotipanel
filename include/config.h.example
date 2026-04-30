@@ -1,0 +1,24 @@
+// Spotipanel Configuration
+// Copy this file to config.h and fill in your credentials
+
+#pragma once
+
+// WiFi Configuration
+#define WIFI_SSID "your_wifi_ssid"
+#define WIFI_PASSWORD "your_wifi_password"
+
+// Spotify API Configuration
+// Get these from https://developer.spotify.com/dashboard
+#define SPOTIFY_CLIENT_ID "your_spotify_client_id"
+// Note: Client secret is NOT used for PKCE flow
+
+// OAuth Redirect URI (for embedded devices, use a localhost or custom scheme)
+#define SPOTIFY_REDIRECT_URI "http://localhost:8888/callback"
+
+// Device Configuration
+#define DEVICE_NAME "Spotipanel"
+
+// Debug Settings
+// #define DEBUG_SPOTIFY
+// #define DEBUG_WIFI
+// #define DEBUG_UI
